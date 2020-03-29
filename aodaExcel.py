@@ -49,7 +49,7 @@ def beginApp(root):
     # FRAME1 ELEMENTS
     frame1 = tk.LabelFrame(root, text="MAKING YOUR EXCEL FILE AODA COMPLIANT", width=1300, height=150, bd=5)
 
-    img = ImageTk.PhotoImage(Image.open("mohLogoM.png").resize((171, 74), Image.ANTIALIAS))
+    img = ImageTk.PhotoImage(Image.open("jj.jpg").resize((171, 74), Image.ANTIALIAS))
 
     side = tk.Frame(frame1)
     imgLogo = tk.Label(side, image=img)
